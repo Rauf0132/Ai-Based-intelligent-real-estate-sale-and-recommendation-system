@@ -34,3 +34,4 @@ npm run dev
 | Backend   | Node.js, Express.js               |
 | Database  | MongoDB (Mongoose)                |
 | Auth      | JWT                               |
+
