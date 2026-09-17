@@ -1,5 +1,4 @@
-// @desc    Register a new user
-// @route   POST /api/auth/register
+
 exports.register = async (req, res) => {
   try {
     res.status(201).json({ message: 'Register endpoint — coming soon' });
@@ -8,8 +7,6 @@ exports.register = async (req, res) => {
   }
 };
 
-// @desc    Login user
-// @route   POST /api/auth/login
 exports.login = async (req, res) => {
   try {
     res.status(200).json({ message: 'Login endpoint — coming soon' });
