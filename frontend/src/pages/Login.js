@@ -1,13 +1,10 @@
 import React from 'react';
 import { Form, Input, Button, Card, Typography } from 'antd';
-
 const { Title } = Typography;
-
-const Login = () => {
+const   Login = () => {
   const onFinish = (values) => {
     console.log('Login values:', values);
   };
-
   return (
     <div style={{ display: 'flex', justifyContent: 'center', marginTop: 80 }}>
       <Card style={{ width: 400 }}>
